@@ -1,0 +1,459 @@
+  *{
+	  padding: 0;
+	  margin: 0;
+  }
+
+  nav{
+	  position: relative;
+	  z-index: 1;
+  }
+
+  .navbar-menu{
+	  background: #000;
+	  height: 50px;
+	  width: 100%;
+	  position: fixed;
+  }
+
+  .logo{
+	  position: absolute;
+	  color: #FFF;
+	  font-size: 30px;
+	  top: 8px;
+	  left: 5%;
+	  font-weight: bold;
+
+  }
+
+  .navbar-menu ul {
+	  float: right;
+	  margin-right: 20px;
+	  list-style: none;
+  }
+
+  .nav-options li{
+	  display: inline-block;
+	  line-height: 50px;
+	  margin: 0 5px;
+  }
+
+  .nav-options li a{
+	  color: #FFF;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  font-size: 20px;
+	  padding: 5px 10px;
+	  position: relative;
+	  border-radius: 3px;
+  }
+
+  a:focus, a:hover{
+	  background-color: #3b7acf;
+	  transition: .5s;
+  }
+  .checkbtn{
+	  font-size: 25px;
+	  float: right;
+	  color: #FFF;
+	  line-height: 50px;
+	  margin-right: 25px;
+	  cursor: pointer;
+	  display:none;
+  }
+  #check{
+	  display: none;
+  }
+
+   section {
+   	width: 100%;
+   }
+
+   .banner {
+   	height: 80vh;
+   	position: relative;
+   	background-color: blue;
+   }
+
+   .banner-content img {
+   	margin: 5px 0;
+   	width: 100%;
+   }
+
+   .banner-text {
+   	position: absolute;
+   	color: #080808;
+   	top: 45%;
+   	left: 50%;
+   	transform: translateX(0) translateY(-45%);
+
+   }
+
+   .banner-text h2 {
+   	font-size: 45px;
+   }
+
+   .banner-text a {
+   	display: block;
+   	width: 100px;
+   	color: #080808;
+   	text-decoration: none;
+   	padding: 7px;
+   	margin-top: 10px;
+   	border: 3px solid #080808;
+   }
+
+   .banner-text a:hover {
+   	color: grey;
+   	background-color: #080808;
+
+   }
+
+  .about{
+	  height: 97vh;
+	  position: relative;
+	  background: #302d2d;
+	  color: #f5f2f2;
+  }
+
+  .about-content{
+	  width: 100%;
+	  height: 100%;
+	  padding: 30px 0;
+	  text-align: center;
+  }
+
+  .about-content h2{
+	  font-size: 45px;
+	  text-transform: uppercase;
+  }
+
+  .about-content p,
+  .about-content h2{
+	  padding: 10px 50px;
+
+  }
+  .about-img{
+	  width: 100%;
+	  box-sizing: border-box;
+	  margin-top: 30px;
+	  padding: 0 50px;
+  }
+  .about-imgx{
+	  width: 33%;
+	  float: left;
+
+  }
+  .img-job{
+	  width: 280px;
+	  height: 280px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  padding-bottom: 15px;
+  }
+
+  .testimonios{
+	  height: 97vh;
+	  position: relative;
+	  background: url(https://image.freepik.com/foto-gratis/taza-cafe-sobre-escritorio-oficina_51137-2129.jpg);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  color: #f5f2f2;
+  }
+
+  .testimonios-content{
+	  width: 100%;
+	  height: 100%;
+	  padding: 30px 0;
+	  text-align: center;
+  }
+
+  .testimonios-content h2{
+	  font-size: 45px;
+	  text-transform: uppercase;
+  }
+
+  .testimonios-content p,
+  .testimonios-content h2 {
+	  padding: 10x 50px;
+  }
+
+  .testimonios-group{
+	  width: 100%;
+	  box-sizing: border-box;
+	  margin-top: 30px;
+  }
+
+  .testimonios-card{
+	width: 33%;
+	float: left;
+  }
+
+  .img-perfil{
+	  width: 180px;
+	  height: 180px;
+	  border-radius: 50%;
+	  border: 3px solid white;
+  }
+
+  .contacto{
+	  height: 97vh;
+	  position: relative;
+  }
+
+  .contacto-content{
+	  width: 100%;
+	  height: 100%;
+	  padding: 30px 0;
+	  text-align: center;
+  }
+
+  .contacto-content h2{
+	  font-size: 45px;
+	  text-transform: uppercase;
+  }
+
+  .contacto-content p,
+  .contacto-content h2{
+	  padding: 10px 50px;
+  }
+
+  .contacto-group{
+	  width: 100%;
+	  box-sizing: border-box;
+	  margin-top: 30px;
+	  padding: 0 50px;
+  }
+
+  .form-contact{
+	  width: 50%;
+	  float: left;
+  }
+  .form-control{
+	  width: 85%;
+	  padding: 0.8rem;
+	  margin: 0.6rem 1rem;
+	  display: block;
+	  font-size: 1rem;
+	  outline: 0;
+	  border-radius: 5px;
+	  border: 1.5px solid #c7c7c7;
+  }
+
+  .send-btn{
+	  display: block;
+	  font-size: 1rem;
+	  text-transform: uppercase;
+	  background-color: teal;
+	  color: white;
+	  border: none;
+	  padding: 0.7rem 1.5rem;
+	  margin: .6rem 1rem;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: all .4s ease;
+  }
+
+  .contacto-img{
+	  width: 50%;
+	  float: left;
+  }
+  .contacto-img img{
+	width: 80%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+  }
+
+  footer{ 
+	  position: relative;
+  }
+
+  .footer{
+	  background-color: #000;
+	  height: 10vh;
+	  color: white;
+  }
+
+  .social {
+	  width: 50%;
+	  float: left;
+	  margin-top: 20px;
+	  text-align: center;
+
+  }
+
+  .copr{
+	  width: 50%;
+	  float: left;
+	  margin-top: 20px;
+	  text-align: center;
+  }
+
+  .social label a{
+	  color:white;
+  }
+
+  .social label i{
+	  font-size: 25px;
+	  padding: 0 10px;
+  }
+
+  .social label i:hover{
+	  color: teal;
+  }
+
+  @media(max-width: 1024px){
+
+	.logo{
+		padding-left: 40px;
+	}
+	.nav-options li a{
+		font-size: 16px;
+		padding: 7px 10px;
+	}
+
+	.banner{
+		height: 89vh;
+	}
+	.banner-content img{
+		margin-top: 50px;
+	}
+
+	.about, .testimonios, .contacto{
+		height: 100vh;
+	}
+
+	.img-job{
+		width: 210px;
+		height: 210px;
+	}
+
+	.testimonios-card p{
+		font-size: 13px;
+	}
+
+	.img-perfil{
+		width: 150px;
+		height: 150px;
+	}
+
+	.form-control{
+		width: 75%;
+		padding: 0.3rem;
+		margin: .6rem 1rem;
+	}
+
+	.send-btn{
+		font-size: .8rem;
+	}
+
+	.footer{
+		height: 15vh;
+	}
+
+	.social{
+		width: 100%;
+	}
+
+	.social label i {
+		width: 25px;
+	}
+	.copr{
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+  }
+
+  @media(max-width: 768px){
+
+	.checkbtn{
+		display: block;
+	}
+	.nav-options{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: #21427F;
+		top: 50px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	.nav-options li{
+		display: block;
+		border-bottom: 1px solid #F4F0F0;
+		z-index: 1;
+	}
+
+	.nav-options li a{
+		font-size: 18px;
+	}
+	nav li:hover{
+		background-color: #eeeaea;
+	}
+
+	nav li a:hover{
+		color: #2f2e2e;
+	}
+
+	#check:checked ~ ul{
+		left: 0;
+	}
+
+	.banner{
+		height: 45vh;
+	}
+	.banner-text{
+		margin-top: 19px;
+	}
+	.banner-text h2{
+		font-size: 30px;
+		
+	}
+
+	.banner-text p{
+		font-size: 10px;
+		
+	}
+
+	.banner-text a{
+		font-size: 14px;
+		width: 60px;
+	}
+
+	.about, .testimonios, .contacto{
+		height: 165vh;
+	}
+	.about-content h2, .testimonios-content h2, .contacto-content h2{
+		font-size: 35px;
+	}
+	.about-imgx{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.testimonios-card{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.form-contact, .contacto-img{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.form-control, .send-btn{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.send-btn{
+		width: 77%;
+	}
+	.copr p{
+		font-size: 40px;
+	}
+  }
+
